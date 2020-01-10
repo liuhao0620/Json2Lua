@@ -1,6 +1,4 @@
 import json
-import os
-import sys
 
 def LoadFromJson(json_file_name):
     with open(json_file_name, 'rb') as f:
